@@ -5,7 +5,8 @@ const SimpleCricket = () => {
     <div className='portfolio-portfolioItem'>
         <div className='portfolio-portfolioItemText' id='portfolio-portfolioSiteText'>
             <h2 className='portfolio-portfolioItemTitle'>Simple Cricket</h2>
-            <p>This website allows you to track the scores in a simplified version of the popular dart game, Cricket. React and Redux with hooks are implemented in this project to create a clean and stylish format for playing the game.         
+            <p>This website allows you to track the scores in a popular version of the dart game, Cricket. 
+                React and Redux with hooks are implemented in this project to create a clean and stylish format to make sure you stay on target.         
             </p>
             <div className='portfolio-portfolioButtonContainer'>
                 <div className='portfolio-portfolioButton'>

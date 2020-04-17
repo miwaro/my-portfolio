@@ -1,14 +1,14 @@
 .NavBar-navBar {
     position: fixed;
-    background-color: $dark-blue;
-    border-radius: 0 0 10px 10px;
+    background-color: $blue;
+    border-radius: 0 0 20px 20px;
 }
 
 .NavBar-item {
-    
-    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+    // font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+
+    font-family: 'Fugaz One';
     text-transform: uppercase;
-    font-weight: bold;
     color: #fff;
     font-size: 0.875em;
     text-decoration: none;
@@ -18,7 +18,7 @@
 }
 
 .NavBar-item:hover {
-    color: $blue;
+    color: $light-grey;
     cursor: pointer;
 }
 

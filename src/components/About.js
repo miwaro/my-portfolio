@@ -22,22 +22,18 @@ const About = () => {
             </p>
             <div className='about-listContainer'>
                 <div>
-                    <p className='about-subheading' id="contact">
-                        Languages and Frameworks
+                    <p className='about-subheading'>
+                        Languages &amp; Frameworks
                     </p>
                     <p className='about-list'>
-                        <li>React (with Hooks)<br /></li>
-                        <li>Redux<br /></li>
+                        <li>React/Redux (with Hooks)<br /></li>
                         <li>Node.js<br /></li>
                         <li>Express<br /></li>
                         <li>Typescript<br /></li>
-                        <li>HTML<br /></li>
-                        <li>CSS/SASS<br /></li>
-                        {/* <li>SASS<br /></li> */}
-                        <li>Javascript<br /></li>
+                        <li>HTML/CSS/JS<br /></li>
                         <li>Material-UI<br /></li>
                         <li>Bootstrap<br /></li>
-                        <li>Testing (Jasmine, Karma)<br /></li>
+                        <li>Testing (Jest, Enzyme)<br /></li>
                     </p>
                 </div>
                 <div>
@@ -58,16 +54,16 @@ const About = () => {
             <div className='about-listContainer'>
                 <div>
                     <p className='about-subheading'>
-                        Courses and Certificates
+                        Courses &amp; Certificates
                     </p>
                     <p className='about-list'>
-                        Team Treehouse - Front-End Web Development Certificate<br />
-                        Udemy - The Complete React Web Developer Course (With Redux)<br />
-                        Udemy - The Complete Javascript Course 2018<br />
-                        Udemy - The Complete Node.js Developer Course<br />
-                        Udemy - Understanding Typescript<br />
-                        Udemy - Bootstrap 4 From Scratch<br />
-                        Udemy - Ultimate CSS Grid Course<br />
+                        <li>Team Treehouse - Front-End Web Development Certificate<br /></li>
+                        <li>Udemy - The Complete React Web Developer Course (With Redux)<br /></li>
+                        <li>Udemy - The Complete Javascript Course 2018<br /></li>
+                        <li>Udemy - The Complete Node.js Developer Course<br /></li>
+                        <li>Udemy - Understanding Typescript<br /></li>
+                        <li>Udemy - Bootstrap 4 From Scratch<br /></li>
+                        <li>Udemy - Ultimate CSS Grid Course<br /></li>
                     </p>
                 </div>
             </div>

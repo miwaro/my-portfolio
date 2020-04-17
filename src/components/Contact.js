@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className='contact-contentContainer'>
+    <div className='contact-contentContainer'  id="contact">
         <h1 className='section-title'>Contact</h1>
         <p className='contact-subtitle'>
         Interested in working together? Contact me directly by clicking the "Hire Me" button!
