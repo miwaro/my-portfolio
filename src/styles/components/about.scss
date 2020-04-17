@@ -34,19 +34,19 @@
 
 .about-pic {
     border-radius: 8%;
-    border: 3px solid $blue;
+    border: 2px solid $blue;
     height: 300px;
     width: 300px;
 }
 
 #about-pic2,
 #about-pic3 {
-    margin-left: 10px;
+    margin-left: 12px;
 }
 
 .about-listContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;

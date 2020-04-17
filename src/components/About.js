@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className='about-contentContainer'>
+    <div className='about-contentContainer' id="about">
         <div>
             <h1 className='section-title'>About Me</h1>
             <div className='about-imageContainer'>
@@ -22,43 +22,43 @@ const About = () => {
             </p>
             <div className='about-listContainer'>
                 <div>
-                    <p className='about-subheading'>
-                        Languages and Frameworks:
+                    <p className='about-subheading' id="contact">
+                        Languages and Frameworks
                     </p>
                     <p className='about-list'>
-                        React<br />
-                        Redux<br />
-                        Node.js<br />
-                        Express<br />
-                        Typescript<br />
-                        HTML<br />
-                        CSS<br />
-                        SASS<br />
-                        Javascript<br />
-                        Material-UI<br />
-                        Bootstrap<br />
-                        Testing (Jasmine, Karma)<br />
+                        <li>React (with Hooks)<br /></li>
+                        <li>Redux<br /></li>
+                        <li>Node.js<br /></li>
+                        <li>Express<br /></li>
+                        <li>Typescript<br /></li>
+                        <li>HTML<br /></li>
+                        <li>CSS/SASS<br /></li>
+                        {/* <li>SASS<br /></li> */}
+                        <li>Javascript<br /></li>
+                        <li>Material-UI<br /></li>
+                        <li>Bootstrap<br /></li>
+                        <li>Testing (Jasmine, Karma)<br /></li>
                     </p>
                 </div>
                 <div>
                     <p className='about-subheading'>
-                        Dev Tools:
+                        Dev-Tools
                     </p>
                     <p className='about-list'>
-                        Webpack<br />
-                        Babel<br />
-                        Git and Github<br />
-                        Command Line/Terminal<br />
-                        Heroku<br />
-                        Google Domains<br />
-                        Chrome Developer Tools<br />
+                        <li>Webpack<br /></li>
+                        <li>Babel<br /></li>
+                        <li>Git and Github<br /></li>
+                        <li>Command Line/Terminal<br /></li>
+                        <li>Heroku<br /></li>
+                        <li>Google Domains<br /></li>
+                        <li>Chrome Dev-Tools<br /></li>
                     </p>
                 </div>
             </div>
             <div className='about-listContainer'>
                 <div>
                     <p className='about-subheading'>
-                        Courses and Certificates:
+                        Courses and Certificates
                     </p>
                     <p className='about-list'>
                         Team Treehouse - Front-End Web Development Certificate<br />

@@ -1,27 +1,55 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { Link } from "react-scroll"
 
 const NavBar = () => {
   return (
     <div>
         <div className='NavBar-navBar'>
-            <div className='NavBar-item' id='NavBar-icon'>
-            </div>
-            <div className='NavBar-item'>
-                <p><a href='#portfolio'>Projects</a></p>
-            </div>
-            <div className='NavBar-item'>
-                <p><a href='#about'>About</a></p>
-            </div>
-            <div className='NavBar-item'>
-            <p><a href='#contact'>Contact</a></p>
-            </div>
+            <div className='NavBar-item' id='NavBar-icon'></div>
+            <Link
+              className='NavBar-item'
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              Projects
+            </Link>
+
+            <Link
+              className='NavBar-item'
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              About
+            </Link>
+
+            <Link
+            
+              className='NavBar-item'
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              Contact
+            </Link>
+           
         </div>
     </div>
   );
 }
 
 export default NavBar;
+
 
 
 
