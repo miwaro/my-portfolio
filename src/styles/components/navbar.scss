@@ -1,23 +1,24 @@
 .NavBar-navBar {
-    display: flex;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    position: fixed;
+    background-color: $blue;
+    border-radius: 0 0 20px 20px;
 }
 
 .NavBar-item {
-    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+    // font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+
+    font-family: 'Fugaz One';
     text-transform: uppercase;
-    font-weight: bold;
     color: #fff;
     font-size: 0.875em;
     text-decoration: none;
-    padding: 1em 2em;
+    margin: 1em 2em;
     -webkit-transition: color .6s;
     transition: color .6s;
 }
 
 .NavBar-item:hover {
-    color: #706f6f;
+    color: $light-grey;
     cursor: pointer;
 }
 
@@ -33,9 +34,18 @@
 @media only screen and (max-width: $tablet-breakpoint) {
     #NavBar-icon {
         display: none;
+
     }
 
     .NavBar-navBar {
         justify-content: space-around;
+        position: none;
+    }
+}
+
+@media only screen and (max-width: $iphone-breakpoint) {
+    .NavBar-navBar {
+        position: none;
+        font-size: 16px;
     }
 }

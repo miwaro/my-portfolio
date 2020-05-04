@@ -2,12 +2,12 @@ import React from 'react';
 
 import KnechtInsurance from './portfolio-items/KnechtInsurance';
 import SimpleCricket from './portfolio-items/SimpleCricket';
-
 import PortfolioPage from './portfolio-items/PortfolioPage';
+import TodoistClone from './portfolio-items/TodoistClone';
 
 const Portfolio = () => {
   return (
-    <div className='portfolio-contentContainer'>
+    <div className='portfolio-contentContainer' id="projects">
         <div>
             <h1 className='section-title'>MY PROJECTS</h1>
             <p className='section-subtitle'>
@@ -17,6 +17,8 @@ const Portfolio = () => {
         <KnechtInsurance />
         <hr />
         <SimpleCricket />
+        <hr />
+        <TodoistClone/>
         <hr />
         <PortfolioPage />
         <hr />

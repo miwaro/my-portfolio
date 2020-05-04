@@ -44,10 +44,6 @@
 }
 
 .contact-socialContainer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 3rem;
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -62,10 +58,8 @@
     height: 41px;
 }
 
-.contact-githubImage {
-    width: 72px;
+.contact-githubImage {  
     height: 50px;
-    margin-right: -4rem;
 }
 
 @media only screen and (max-width: $iphone-breakpoint) {

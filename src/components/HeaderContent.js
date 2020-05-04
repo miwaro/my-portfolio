@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { Link } from "react-scroll"
 
 const HeaderContent = () => {
   return (
@@ -9,10 +9,20 @@ const HeaderContent = () => {
                 Michael Rooze
             </div>
             <div className='HeaderContent-subtitle'>
-                I am a front-end web developer passionate about creating new and unique web experiences.
+                Front-end Web Developer
             </div>
             <div className='HeaderContent-button'>
-                <a href='#portfolio' className='button'>View My Work</a>
+                <Link
+                className='button'
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                >
+                View My Work
+                </Link>
             </div>
         </div>
     </div>
