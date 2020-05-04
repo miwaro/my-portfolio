@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 8rem;
     padding-top: 12rem;
 
     animation:
@@ -86,6 +86,7 @@
 
 .HeaderContent-title {
     font-size: 72px;
+    letter-spacing: 2px;
   }
 
 
@@ -96,8 +97,9 @@
     width: 40%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 3.5rem;
+    // margin-top: 3.5rem;
     text-align: center;
+    color: $blue;
 }
 
 .HeaderContent-header .button {
@@ -107,7 +109,7 @@
     border: 2px solid $off-white;
     border-radius: 1rem;
     padding: 1rem 1.5rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
     -webkit-transition: background-color .6s, color .6s;
     transition: background-color .6s, color .6s;
 }
@@ -148,5 +150,8 @@
 @media only screen and (max-width: $iphone-breakpoint) {
     .HeaderContent-title {
         font-size: 44px;
+    }
+    .HeaderContent-header .button {
+      margin-top: 32rem;
     }
 }

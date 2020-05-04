@@ -3,6 +3,7 @@ import React from 'react';
 import KnechtInsurance from './portfolio-items/KnechtInsurance';
 import SimpleCricket from './portfolio-items/SimpleCricket';
 import PortfolioPage from './portfolio-items/PortfolioPage';
+import TodoistClone from './portfolio-items/TodoistClone';
 
 const Portfolio = () => {
   return (
@@ -16,6 +17,8 @@ const Portfolio = () => {
         <KnechtInsurance />
         <hr />
         <SimpleCricket />
+        <hr />
+        <TodoistClone/>
         <hr />
         <PortfolioPage />
         <hr />

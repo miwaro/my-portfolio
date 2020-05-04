@@ -11,14 +11,11 @@ const About = () => {
                 <img src='/images/profile-pic5.jpg' className='about-pic' id='about-pic3'></img>
             </div>
             <p className='section-subtitle' id='about-subtitle'>
-            I am a front-end web developer passionate about bringing ideas to life using web technologies. I am proficient in the tools of the modern web, including React, Node.js, and Express. I am a highly motivated self-starter, and I enjoy tackling challenging problems. I have a proven track record of designing and implementing production applications across several different technology stacks that have been used by businesses and individuals to solve real-world problems.
+            I am a front-end web developer driven to bringing new ideas to life. I am proficient in the tools of the modern web, including React and Redux. I actively follow the progression of these technologies and enjoy implementing their new features, like "Hooks". I enjoy pursuing challenging problems and developing creative solutions to them. I have a proven track record of designing and implementing production applications across several different technology stacks that have been used by businesses and individuals to solve real-world problems.
                 <br />
             </p>
             <p className='section-subtitle' id='about-subtitle2'>
               Aside from coding, I enjoy playing chess, guitar, and basketball. I have also been exploring the beautiful Pacific Northwest since I moved here in May of 2019.
-            </p>
-            <p className='section-subtitle' id='about-subtitle3'>
-            Prior to becoming a web developer, I attended Indiana State University and graduated with a degree in Physical Education, but ultimately decided that the path of technology and web solutions was a better fit for me.
             </p>
             <div className='about-listContainer'>
                 <div>
@@ -27,8 +24,6 @@ const About = () => {
                     </p>
                     <p className='about-list'>
                         <li>React/Redux (with Hooks)<br /></li>
-                        <li>Node.js<br /></li>
-                        <li>Express<br /></li>
                         <li>Typescript<br /></li>
                         <li>HTML/CSS/JS<br /></li>
                         <li>Material-UI<br /></li>
@@ -60,7 +55,6 @@ const About = () => {
                         <li>Team Treehouse - Front-End Web Development Certificate<br /></li>
                         <li>Udemy - The Complete React Web Developer Course (With Redux)<br /></li>
                         <li>Udemy - The Complete Javascript Course 2018<br /></li>
-                        <li>Udemy - The Complete Node.js Developer Course<br /></li>
                         <li>Udemy - Understanding Typescript<br /></li>
                         <li>Udemy - Bootstrap 4 From Scratch<br /></li>
                         <li>Udemy - Ultimate CSS Grid Course<br /></li>

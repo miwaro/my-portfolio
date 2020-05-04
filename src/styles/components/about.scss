@@ -32,6 +32,19 @@
     justify-content: center;
 }
 
+div {
+    list-style: none;
+  }
+  
+  div li::before {
+    content: "\2022";
+    color: $blue;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
 .about-pic {
     border-radius: 8%;
     border: 2px solid $blue;

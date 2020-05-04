@@ -9,7 +9,7 @@ const HeaderContent = () => {
                 Michael Rooze
             </div>
             <div className='HeaderContent-subtitle'>
-                I am a front-end web developer passionate about creating new and unique web experiences.
+                Front-end Web Developer
             </div>
             <div className='HeaderContent-button'>
                 <Link

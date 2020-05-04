@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const SimpleCricket = () => {
   return (
     <div className='portfolio-portfolioItem'>
@@ -20,11 +21,19 @@ const SimpleCricket = () => {
             </div>
             
         </div>
-        <div className='portfolio-portfolioItemImage'>
-            <a href='#'  target='blank'><img src='/images/simple-cricket.png' className='portfolio-screenshot'></img></a>
-        </div>
+        <div className='portfolio-portfolioItemImage' id='portfolio-loaderGalleryImage' style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <video
+            height="300"
+            controls
+            src="/video/sim-crick.mp4"
+            type="video/mp4"
+            >
+            </video>
+        </div> 
+
     </div>
   );
 }
 
 export default SimpleCricket;
+
