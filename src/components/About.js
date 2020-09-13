@@ -7,8 +7,8 @@ const About = () => {
             <h1 className='section-title'>About Me</h1>
             <div className='about-imageContainer'>
                 <img src='/images/profile-pic3.jpg' className='about-pic' id='about-pic1'></img>
-                <img src='/images/profile-pic2.jpg' className='about-pic' id='about-pic2'></img>
-                <img src='/images/profile-pic5.jpg' className='about-pic' id='about-pic3'></img>
+                <img src='/images/pro-profile-pic.jpg' className='about-pic' id='about-pic2'></img>
+                <img src='/images/profile-pic2.jpg' className='about-pic' id='about-pic3'></img>
             </div>
             <p className='section-subtitle' id='about-subtitle'>
             I am a front-end web developer driven to bringing new ideas to life. I am proficient in the tools of the modern web, including React and Redux. I actively follow the progression of these technologies and enjoy implementing their new features, like "Hooks". I enjoy pursuing challenging problems and developing creative solutions to them. I have a proven track record of designing and implementing production applications across several different technology stacks that have been used by businesses and individuals to solve real-world problems.
