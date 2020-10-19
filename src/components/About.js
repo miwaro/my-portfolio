@@ -39,7 +39,7 @@ const About = () => {
                         <li>Webpack<br /></li>
                         <li>Babel<br /></li>
                         <li>Git and Github<br /></li>
-                        <li>Command Line/Terminal<br /></li>
+                        <li>Bash<br /></li>
                         <li>Heroku<br /></li>
                         <li>Google Domains<br /></li>
                         <li>Chrome Dev-Tools<br /></li>

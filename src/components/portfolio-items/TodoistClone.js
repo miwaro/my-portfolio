@@ -5,7 +5,7 @@ const SimpleCricket = () => {
   return (
     <div className='portfolio-portfolioItem'>
         <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
-            <a href='https://knechtinsurance.com' target='blank'><img src='/images/knecht-insurance.png' className='portfolio-screenshot'></img></a>
+            <a href='https://knechtinsurance.com' target='blank'><img src='/images/todoist-preview.png' className='portfolio-screenshot'></img></a>
         </div>
         <div className='portfolio-portfolioItemText' id='portfolio-portfolioSiteText'>
             <h2 className='portfolio-portfolioItemTitle'>Todoist (Clone)</h2>
