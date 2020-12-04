@@ -10,7 +10,7 @@ const PortfolioPage = () => {
         </div>
         <div className='portfolio-portfolioItemText' id='portfolio-portfolioSiteText'>
             <h2 className='portfolio-portfolioItemTitle'>My Portfolio Site</h2>
-            <p>Click on the link below to view the source code for this website!         
+            <p>Click on the link below to view the code for mikerooze.com!         
             </p>
             <div className='portfolio-portfolioButtonContainer'>
                 <div className='portfolio-portfolioButton'>
