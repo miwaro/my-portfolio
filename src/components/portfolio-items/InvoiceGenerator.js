@@ -5,7 +5,7 @@ const InvoiceGenerator = () => {
   return (
     <div className='portfolio-portfolioItem'>
         <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
-            <a href='https://invoice-generation-app.herokuapp.com/' target='blank'><img src='/images/invoice.png' className='portfolio-screenshot'></img></a>
+            <a href='https://invoice-generation-app.herokuapp.com/' target='blank'><img src='/images/Invoice.png' className='portfolio-screenshot'></img></a>
         </div>
         <div className='portfolio-portfolioItemText' id='portfolio-portfolioSiteText'>
             <h2 className='portfolio-portfolioItemTitle'>Invoice Generator</h2>
