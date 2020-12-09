@@ -59,17 +59,33 @@
 
 
 .linked {
+    margin: auto;
+    margin-top: 40px;
+    width: 300px;
     padding: 20px;
     &:hover {
         background-color: $light-grey;
+        border-radius: 10px;
+        transform: scale(1.01);
+        box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.411);
     }
 }
 
 .git {
+    margin: auto;
+    margin-top: 40px;
+    width: 300px;
     padding: 20px;
     &:hover {
         background-color: $light-grey;
+        border-radius: 10px;
+        transform: scale(1.01);
+        box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.411);
     }
+}
+
+.git > p {
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: $iphone-breakpoint) {
