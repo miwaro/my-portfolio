@@ -4,6 +4,8 @@
   border-radius: 0 0 20px 20px;
 }
 
+
+
 .NavBar-item {
   text-transform: uppercase;
   position: relative;
@@ -13,13 +15,18 @@
   text-decoration: none;
   margin: 1em 2em;
   -webkit-transition: color 0.4s;
-  transition: color 0.6s;
+  // transition: color 0.4s;
+}
+
+.NavBar-item.active {
+  color: rgb(0, 255, 234);
 }
 
 .NavBar-item:hover {
   color: $light-grey;
   cursor: pointer;
 }
+
 
 #NavBar-icon {
   margin-right: auto;

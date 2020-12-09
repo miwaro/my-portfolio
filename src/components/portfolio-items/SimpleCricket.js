@@ -6,7 +6,7 @@ const SimpleCricket = () => {
     <div className='portfolio-portfolioItem'>
         <div className='portfolio-portfolioItemText' id='portfolio-portfolioSiteText'>
             <h2 className='portfolio-portfolioItemTitle'>Simple Cricket</h2>
-            <p>This website allows you to track the scores in a popular version of the dart game, Cricket. 
+            <p>I developed Simple Cricket to  help users track their scores in a popular version of the dart game, Cricket. 
                 React and Redux with hooks are implemented in this project to create a clean and stylish format to make sure you stay on target.         
             </p>
             <div className='portfolio-portfolioButtonContainer'>
@@ -21,12 +21,13 @@ const SimpleCricket = () => {
             </div>
             
         </div>
-        <div className='portfolio-portfolioItemImage' id='portfolio-loaderGalleryImage' style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <div className='portfolio-portfolioItemImage portfolio-screenshot' id='portfolio-loaderGalleryImage' 
+        style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             <video
-            height="300"
-            controls
-            src="/video/sim-crick.mp4"
-            type="video/mp4"
+                height="340"
+                controls
+                src="/video/sim-crick.mp4"
+                type="video/mp4"
             >
             </video>
         </div> 

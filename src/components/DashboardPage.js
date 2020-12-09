@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './NavBar';
 import HeaderContent from './HeaderContent';
 import Portfolio from './Portfolio';
+import Skills from './Skills';
 import About from './About';
 import Contact from './Contact';
 import Footer from './Footer';
@@ -25,6 +26,11 @@ class DashboardPage extends React.Component {
         <div className='portfolio-container' id='portfolio'>
           <div className='portfolio-portfolio'>
             <Portfolio />
+          </div>
+        </div>
+        <div className='about-container' id='about'>
+          <div className='about-about'>
+            <Skills />
           </div>
         </div>
         <div className='about-container' id='about'>

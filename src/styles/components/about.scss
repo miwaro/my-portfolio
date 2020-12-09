@@ -32,19 +32,6 @@
     justify-content: center;
 }
 
-div {
-    list-style: none;
-  }
-  
-  div li::before {
-    content: "\2022";
-    color: $blue;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-  }
-
 .about-pic {
     border-radius: 8%;
     border: 2px solid $blue;
@@ -55,20 +42,6 @@ div {
 #about-pic2,
 #about-pic3 {
     margin-left: 12px;
-}
-
-.about-listContainer {
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.about-subheading {
-    font-size: 24px;
-    font-weight: bold;
-    color: $blue;
 }
 
 .about-appLink {
@@ -82,8 +55,3 @@ div {
     }
 }
 
-@media only screen and (max-width: $tablet-breakpoint) {
-    .about-listContainer {
-        flex-direction: column;
-    }
-}

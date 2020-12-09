@@ -4,14 +4,12 @@ import React from 'react';
 const InvoiceGenerator = () => {
   return (
     <div className='portfolio-portfolioItem'>
-        <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
-            <a href='https://invoice-generation-app.herokuapp.com/' target='blank'><img src='/images/Invoice.png' className='portfolio-screenshot'></img></a>
-        </div>
         <div className='portfolio-portfolioItemText' id='portfolio-portfolioSiteText'>
             <h2 className='portfolio-portfolioItemTitle'>Invoice Generator</h2>
-            <p>Here is a prototype that I constructed for a client who is starting a small business geared towards helping out freelance developers.  
-                Users can fill out a form which automatically populates the fields in the invoice.  
-                Many options are included such as calculating a discount or taxes.  You can customize the theme, add notes, and much more.       
+            <p>Here is a prototype that I constructed for a client launching a small business geared toward freelance developers. 
+                Through the app, users can fill out a form which automatically populates the required invoice fields.  
+                The app includes a wide array of options including the ability to calculate discounts or taxes.  
+                I developed additional customizations that allow the user to personalize the theme, add notes, and much more.      
             </p>
             <div className='portfolio-portfolioButtonContainer'>
                 <div className='portfolio-portfolioButton'>
@@ -23,6 +21,9 @@ const InvoiceGenerator = () => {
                     </div>
                 </div>
             </div>
+        </div>
+        <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
+            <a href='https://invoice-generation-app.herokuapp.com/' target='blank'><img src='/images/Invoice.png' className='portfolio-screenshot'></img></a>
         </div>
     </div>
   );

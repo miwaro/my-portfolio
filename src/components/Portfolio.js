@@ -13,8 +13,9 @@ const Portfolio = () => {
         <div>
             <h1 className='section-title'>MY PROJECTS</h1>
             <p className='section-subtitle'>
-                Below are some of the projects I've completed. I've included links to the applications themselves, 
-                as well as links to the Github repository for each app. Please feel free to explore both the applications and their source code!
+            Below I've shared various projects which demonstrate my proficiency as a front-end web developer. 
+            I've provided the links to each application as well as their corresponding Github repositories.  
+            Please feel free to explore both the applications and their source code!
             </p>
             <hr />
         </div>

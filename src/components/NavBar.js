@@ -13,9 +13,21 @@ const NavBar = () => {
               spy={true}
               smooth={true}
               offset={0}
-              duration={500}
+              duration={800}
             >
               Projects
+            </Link>
+
+            <Link
+              className='NavBar-item'
+              activeClass="active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={800}
+            >
+              Skills
             </Link>
 
             <Link
@@ -24,21 +36,20 @@ const NavBar = () => {
               to="about"
               spy={true}
               smooth={true}
-              offset={0}
-              duration={500}
+              offset={575}
+              duration={800}
             >
               About
             </Link>
 
             <Link
-            
               className='NavBar-item'
               activeClass="active"
               to="contact"
               spy={true}
               smooth={true}
-              offset={0}
-              duration={500}
+              offset={-300}
+              duration={800}
             >
               Contact
             </Link>

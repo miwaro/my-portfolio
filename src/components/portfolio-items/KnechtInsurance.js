@@ -8,9 +8,9 @@ const KnechtInsurance = () => {
         </div>
         <div className='portfolio-portfolioItemText' id='portfolio-blindsTrackerText'>
             <h2 className='portfolio-portfolioItemTitle'>Knecht Insurance</h2>
-            <p>This is a website that I built for an insurance broker using HTML, CSS, and vanilla JavaScript.
-            The website features a contact form, which allows a prospective customer to contact the business owner to obtain a quote.
-            The contact form is powered by a NodeJS backend that intregrates with Gmail's API.
+            <p>This is a modern website I built for an insurance broker utilizing HTML, CSS, JavaScript, and NodeJS. 
+                The client requested the inclusion of a customer contact form to enable prospective customers to request a service quote. 
+                To accomplish this, I powered the contact form with a NodeJS backend that seamlessly integrates with Gmail's API.
             </p>
             <div className='portfolio-portfolioButtonContainer'>
                 <div className='portfolio-portfolioButton'>

@@ -16,11 +16,6 @@
     padding-right: 2rem;
 }
 
-.contact-subtitle {
-    margin-top: -2rem;
-    margin-bottom: 2rem;
-}
-
 .contact-contactButton {
     display: inline-block;
     margin: 1rem 2rem 2rem 2rem;
@@ -32,10 +27,8 @@
     border: 2px solid $blue;
     border-radius: 1rem;
     padding: 1rem 1.5rem;
-    margin-top: 7rem;
     -webkit-transition: background-color .6s, color .6s;
     transition: background-color .6s, color .6s;
-    width: 40%;
 }
 
 .contact-contactButton .button:hover {
@@ -53,13 +46,30 @@
     cursor: pointer;
 }
 
-.contact-facebookImage {
-    width: 41px;
-    height: 41px;
-}
-
 .contact-githubImage {  
     height: 50px;
+}
+
+.contact-subtitle {
+    padding: 20px;
+    &:hover {
+        background-color: $light-grey;
+    }
+}
+
+
+.linked {
+    padding: 20px;
+    &:hover {
+        background-color: $light-grey;
+    }
+}
+
+.git {
+    padding: 20px;
+    &:hover {
+        background-color: $light-grey;
+    }
 }
 
 @media only screen and (max-width: $iphone-breakpoint) {

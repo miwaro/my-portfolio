@@ -3,9 +3,16 @@ import React from 'react';
 const Songwriter = () => {
   return (
     <div className='portfolio-portfolioItem'>
+        <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
+            <a href='https://www.songwriting-inspirationator.com/#/progressionator' target='blank'>
+                <img src='/images/songwriting.png' className='portfolio-screenshot'></img>
+            </a>
+        </div>
         <div className='portfolio-portfolioItemText' id='portfolio-blindsTrackerText'>
-            <h2 className='portfolio-portfolioItemTitle'>songwriting-Inspirationator</h2>
-            <p> Here is a project by Alex Totheroh that I added a few features too.  I would appreciate an opportunity to talk about the specific features I implemented for this really creative website.
+            <h2 className='portfolio-portfolioItemTitle'>Songwriting-Inspirationator</h2>
+            <p>  I collaborated with Alex Totheroh on a website called Songwriting Inspirationer. 
+                Specific features I developed include mapping chord extensions, tooltip labeling, and SCSS styles.     
+               
             </p>
             <div className='portfolio-portfolioButtonContainer'>
                 <div className='portfolio-portfolioButton'>
@@ -19,11 +26,6 @@ const Songwriter = () => {
                 </div>
                 
             </div>
-        </div>
-        <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
-            <a href='https://www.songwriting-inspirationator.com/#/progressionator' target='blank'>
-                <img src='/images/songwriting.png' className='portfolio-screenshot'></img>
-            </a>
         </div>
     </div>
   );
