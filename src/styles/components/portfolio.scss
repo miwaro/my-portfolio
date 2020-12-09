@@ -23,6 +23,7 @@
     grid-template-areas: "l l";
     margin-top: 5rem;
     margin-bottom: 5rem;
+
 }
 
 .portfolio-screenshot {
@@ -30,6 +31,10 @@
     max-width: 650px;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.411);
     border-radius: 1rem;
+    &:hover {
+        transform: scale(1.01);
+        box-shadow: 3px 3px 45px rgba(0, 0, 0, 0.411);
+      }
 }
 
 .portfolio-portfolioItemTitle {
@@ -70,9 +75,6 @@
     background-color: $blue;
     color: $off-white;
 }
-
-
-
 
 #portfolio-blindsTrackerImage {
     display: flex;

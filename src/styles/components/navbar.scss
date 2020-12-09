@@ -1,10 +1,10 @@
 .NavBar-navBar {
   position: fixed;
-  background-color: $blue;
+  z-index: 1;
+  background: rgb(6,97,110);
+  background: linear-gradient(97deg, rgba(6,97,110,1) 0%, rgba(6,157,168,1) 10%, rgba(5,189,203,0.7679446778711485) 26%);
   border-radius: 0 0 20px 20px;
 }
-
-
 
 .NavBar-item {
   text-transform: uppercase;
@@ -15,18 +15,16 @@
   text-decoration: none;
   margin: 1em 2em;
   -webkit-transition: color 0.4s;
-  // transition: color 0.4s;
 }
 
 .NavBar-item.active {
-  color: rgb(0, 255, 234);
+  color: rgb(124, 255, 244);
 }
 
 .NavBar-item:hover {
   color: $light-grey;
   cursor: pointer;
 }
-
 
 #NavBar-icon {
   margin-right: auto;

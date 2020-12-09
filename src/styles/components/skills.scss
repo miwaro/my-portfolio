@@ -1,21 +1,46 @@
 .about-listContainer {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-areas: "frames tools certs"
+                          "frames logos logos";
+    font-size: $font-size-small;
     max-width: 1000px;
-    margin: auto;
-    padding: 30px;
+    margin: 0 auto 50px auto;
+    padding: 0 0 10px 30px;
     background-color: $light-grey;
     border-radius: 10px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.411);
+    border-radius: 1rem;
+    &:hover {
+        transform: scale(1.01);
+        box-shadow: 3px 3px 45px rgba(0, 0, 0, 0.411);
+      }
+}
+
+.frames {
+
+    grid-area: frames;
+}
+
+.tools {
+    padding-top: 14px;
+    font-size: $font-size-small;
+    grid-area: tools;
+}
+
+.certs {
+    padding-top: 14px;
+    grid-area: certs;
 }
 
 .logos {
-    max-width: 1000px;
+    grid-area: logos;
+    transform: translateX(-30px);
     display: flex;
-    justify-content: space-between;
-    margin: 30px auto;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: $light-grey;
+    justify-content: space-around;
+}
+
+.logos-img {
+    height: 40px;
 }
 
 .skills-title {
@@ -27,8 +52,8 @@
 }
 
 .about-subheading {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 18px;
+    // font-weight: bold;
     color: $blue;
 }
 
@@ -38,7 +63,6 @@ div li::before {
     font-weight: bold;
     display: inline-block; 
     width: 1em;
-    // margin-left: -1em;
 }
 
 div {
@@ -50,5 +74,18 @@ div {
     .about-listContainer {
         text-align: center;
         flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        max-width: 1000px;
+        margin: auto;
+        padding: 30px;
+        background-color: $light-grey;
+        border-radius: 10px;
     }
+    
+    .logos {
+        display: none;
+    }
+
 }
+
