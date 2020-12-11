@@ -1,20 +1,19 @@
 .NavBar-navBar {
-  position: fixed;
   z-index: 1;
-  background: rgb(6,97,110);
-  background: linear-gradient(97deg, rgba(6,97,110,1) 0%, rgba(6,157,168,1) 10%, rgba(5,189,203,0.7679446778711485) 26%);
+  position: fixed;
+  background: #097686;
   border-radius: 0 0 20px 20px;
 }
 
 .NavBar-item {
   text-transform: uppercase;
   position: relative;
-  top: -6px;
-  color: #fff;
+  top: -8px;
+  color: rgba(255, 255, 255, 0.911);
   font-size: 0.875em;
   text-decoration: none;
   margin: 1em 2em;
-  -webkit-transition: color 0.4s;
+  // -webkit-transition: color 0.4s;
 }
 
 .NavBar-item.active {
@@ -41,6 +40,7 @@
   }
 
   .NavBar-navBar {
+    padding-top: 15px;
     justify-content: space-around;
     position: none;
   }

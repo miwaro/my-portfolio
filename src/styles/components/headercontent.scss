@@ -85,14 +85,14 @@
 }
 
 .HeaderContent-title {
+    font-family: 'Fugaz One', cursive;
     font-size: 72px;
     letter-spacing: 2px;
   }
 
 
-
-
 .HeaderContent-subtitle {
+    font-style: italic;
     display: flex;
     justify-content: center;
     font-size: 24px;
@@ -100,7 +100,7 @@
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    color: $blue;
+    color: #0bcddc;
 }
 
 .HeaderContent-header .button {
