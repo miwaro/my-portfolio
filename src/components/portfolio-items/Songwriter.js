@@ -10,7 +10,8 @@ const Songwriter = () => {
         </div>
         <div className='portfolio-portfolioItemText' id='portfolio-blindsTrackerText'>
             <h2 className='portfolio-portfolioItemTitle'>Songwriting-Inspirationator</h2>
-            <p>  I collaborated with Alex Totheroh on a website called Songwriting Inspirationer. 
+            <p>  I collaborated with a colleague of mine on this really unique project.  
+                It gives songwriters a wide array of options to enhance their approach to songwriting. 
                 Specific features I developed include mapping chord extensions, tooltip labeling, and SCSS styles.     
                
             </p>

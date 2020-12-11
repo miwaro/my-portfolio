@@ -1,9 +1,10 @@
 .about-listContainer {
+    z-index: -1;
     display: grid;
     grid-template-areas: "frames tools certs"
                           "frames logos logos";
     font-size: $font-size-small;
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto 50px auto;
     padding: 0 0 10px 30px;
     background-color: $light-grey;
@@ -34,14 +35,35 @@
 
 .logos {
     grid-area: logos;
-    transform: translateX(-30px);
+    transform: translateX(-40px);
     display: flex;
     justify-content: space-around;
+
 }
 
-.logos-img {
-    height: 40px;
+.logos-img  {
+  animation-name: spin;
+  animation-timing-function: infinite;
+  animation: spin .3s infinite;
+  animation-fill-mode: forwards;
+  height: 35px;
+
+  &:hover {
+    @keyframes spin {
+        0% { transform:rotate(0deg); }
+        25% { transform:rotate(3deg); }
+        50% {transform:rotate(0deg); }
+        75% { transform:rotate(-3deg); }
+        100% { transform:rotate(0deg); }
+    }
+  }
 }
+// @keyframes mymove {
+//   from {top: 0px;}
+//   to {top: -20px;}
+// }
+
+
 
 .skills-title {
     display: flex;
@@ -53,7 +75,7 @@
 
 .about-subheading {
     font-size: 18px;
-    // font-weight: bold;
+    font-weight: bold;
     color: $blue;
 }
 

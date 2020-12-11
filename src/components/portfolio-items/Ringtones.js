@@ -10,8 +10,7 @@ const Ringtones = () => {
         <div className='portfolio-portfolioItemText' id='portfolio-portfolioSiteText'>
             <h2 className='portfolio-portfolioItemTitle'>Phone Phonics</h2>
             <p>I created Phone Phonics as a website hub to download free ringtones and text tones. 
-                The website currently features tracks produced by myself and my peers, with the capability to expand its library globally. 
-                The data is stored in a JSON object and local storage is utilized to save your favorite sounds.
+                The website currently features tracks produced by myself and my peers, with the capability to expand its library globally.  
             </p>
             <div className='portfolio-portfolioButtonContainer'>
                 <div className='portfolio-portfolioButton'>
