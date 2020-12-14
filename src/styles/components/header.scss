@@ -1,9 +1,7 @@
 .header {
     min-height: 100vh;
     background: url("/images/bg.jpg") no-repeat;
-    background-color: $blue;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .header_dark-overlay {
@@ -17,8 +15,7 @@
 }
 
 .header-navBar_container {
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
