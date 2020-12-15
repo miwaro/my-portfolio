@@ -21,10 +21,10 @@ const SimpleCricket = () => {
             </div>
             
         </div>
-        <div className='portfolio-portfolioItemImage portfolio-screenshot' id='portfolio-loaderGalleryImage' 
-        style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <div  >
             <video
-                height="340"
+                height="380"
+                width="600"
                 controls
                 src="/video/sim-crick.mp4"
                 type="video/mp4"

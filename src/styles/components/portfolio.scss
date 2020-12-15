@@ -7,7 +7,7 @@
 }
 
 .portfolio-portfolio {
-    color: #706f6f;
+    color: #000;
 }
 
 .portfolio-contentContainer {
@@ -27,8 +27,6 @@
 }
 
 .portfolio-screenshot {
-    max-height: 700px;
-    max-width: 650px;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.411);
     border-radius: 1rem;
     &:hover {
@@ -38,7 +36,7 @@
 }
 
 .portfolio-portfolioItemTitle {
-    color: $dark-grey;
+    color: #000;
 }
 
 .portfolio-portfolioItemText p {

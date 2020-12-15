@@ -5,7 +5,7 @@ const Songwriter = () => {
     <div className='portfolio-portfolioItem'>
         <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
             <a href='https://www.songwriting-inspirationator.com/#/progressionator' target='blank'>
-                <img src='/images/songwriting.png' className='portfolio-screenshot'></img>
+                <img src='/images/songwriting.png' className='portfolio-screenshot' rel='noopener noreferrer' alt='Songwriting-App' width='600' height='380'></img>
             </a>
         </div>
         <div className='portfolio-portfolioItemText' id='portfolio-blindsTrackerText'>

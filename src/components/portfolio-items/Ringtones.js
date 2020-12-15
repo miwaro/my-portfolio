@@ -5,7 +5,11 @@ const Ringtones = () => {
   return (
     <div className='portfolio-portfolioItem'>
         <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
-            <a href='https://my-tones.herokuapp.com/' target='blank'><img src='/images/ringtones.png' className='portfolio-screenshot'></img></a>
+            <a href='https://my-tones.herokuapp.com/' target='blank'>
+                <img src='/images/ringtones.png' className='portfolio-screenshot'  
+                     rel='noopener noreferrer' alt='Songwriting-App' width='600' height='380'>
+                </img>
+            </a>
         </div>
         <div className='portfolio-portfolioItemText' id='portfolio-portfolioSiteText'>
             <h2 className='portfolio-portfolioItemTitle'>Phone Phonics</h2>

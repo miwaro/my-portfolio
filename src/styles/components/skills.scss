@@ -42,21 +42,21 @@
 }
 
 .logos-img  {
-  animation-name: spin;
-  animation-timing-function: infinite;
-  animation: spin .3s infinite;
-  animation-fill-mode: forwards;
+//   animation-name: spin;
+//   animation-timing-function: infinite;
+//   animation: spin .3s infinite;
+//   animation-fill-mode: forwards;
   height: 35px;
 
-  &:hover {
-    @keyframes spin {
-        0% { transform:rotate(0deg); }
-        25% { transform:rotate(3deg); }
-        50% {transform:rotate(0deg); }
-        75% { transform:rotate(-3deg); }
-        100% { transform:rotate(0deg); }
-    }
-  }
+//   &:hover {
+//     @keyframes spin {
+//         0% { transform:rotate(0deg); }
+//         25% { transform:rotate(3deg); }
+//         50% {transform:rotate(0deg); }
+//         75% { transform:rotate(-3deg); }
+//         100% { transform:rotate(0deg); }
+//     }
+//   }
 }
 // @keyframes mymove {
 //   from {top: 0px;}

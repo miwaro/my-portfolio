@@ -1,25 +1,17 @@
 import React from 'react';
-// import Accordion from '@material-ui/core/Accordion';
-// import AccordionSummary from '@material-ui/core/AccordionSummary';
-// import AccordionDetails from '@material-ui/core/AccordionDetails';
-// import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 
 const InvoiceGenerator = () => {
   return (
     <div className='portfolio-portfolioItem'>
-        <div className='portfolio-portfolioItemText' id='portfolio-portfolioSiteText'>
-            
-                    <h2 className='portfolio-portfolioItemTitle'>Invoice Generator</h2>
-  
-                    <p>
-                        Here is a prototype that I constructed for a client launching a small business geared toward freelance developers. 
-                        Through the app, users can fill out a form that automatically populates the required invoice fields.  
-                        The app includes a wide array of options including the ability to calculate discounts or taxes.  
-                        I developed additional customizations that allow the user to personalize the theme, add notes, and much more.      
-                    </p>
-
-
+        <div className='portfolio-portfolioItemText' id='portfolio-portfolioSiteText'>  
+            <h2 className='portfolio-portfolioItemTitle'>Invoice Generator</h2>
+            <p>
+                Here is a prototype that I constructed for a client launching a small business geared toward freelance developers. 
+                Through the app, users can fill out a form that automatically populates the required invoice fields.  
+                The app includes a wide array of options including the ability to calculate discounts or taxes.  
+                I developed additional customizations that allow the user to personalize the theme, add notes, and much more.      
+            </p>
             <div className='portfolio-portfolioButtonContainer'>
                 <div className='portfolio-portfolioButton'>
                         <a href='https://invoice-generation-app.herokuapp.com/' className='button' target='blank'>Explore The App</a>
@@ -32,7 +24,11 @@ const InvoiceGenerator = () => {
             </div>
         </div>
         <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
-            <a href='https://invoice-generation-app.herokuapp.com/' target='blank'><img src='/images/Invoice.png' className='portfolio-screenshot'></img></a>
+            <a href='https://invoice-generation-app.herokuapp.com/' target='blank'>
+                <img src='/images/Invoice.png' className='portfolio-screenshot'
+                     rel='noopener noreferrer' alt='Songwriting-App' width='600' height='380'>
+                </img>
+            </a>
         </div>
     </div>
   );

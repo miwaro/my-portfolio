@@ -15,7 +15,9 @@ const PortfolioPage = () => {
         </div>
         <div className='portfolio-portfolioItemImage'>
             <a href='#'  target='blank'>
-                <img src='/images/portfolio-page.png' className='portfolio-screenshot'></img>    
+                <img src='/images/portfolio-page.png' className='portfolio-screenshot'
+                     rel='noopener noreferrer' alt='Songwriting-App' width='600' height='380'>
+                </img>    
             </a>
         </div>
    </div>

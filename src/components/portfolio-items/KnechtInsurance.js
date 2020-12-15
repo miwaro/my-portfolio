@@ -4,7 +4,7 @@ const KnechtInsurance = () => {
   return (
     <div className='portfolio-portfolioItem'>
         <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
-            <a href='https://knechtinsurance.com' target='blank'><img src='/images/knecht-insurance.png' className='portfolio-screenshot'></img></a>
+            <a href='https://knechtinsurance.com' target='blank'><img src='/images/knecht-insurance.png' className='portfolio-screenshot' rel='noopener noreferrer' alt='Songwriting-App' width='600' height='380'></img></a>
         </div>
         <div className='portfolio-portfolioItemText' id='portfolio-blindsTrackerText'>
             <h2 className='portfolio-portfolioItemTitle'>Knecht Insurance</h2>
