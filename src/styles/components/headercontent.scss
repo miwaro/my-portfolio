@@ -143,10 +143,6 @@
     .HeaderContent-title {
         font-size: 50px;
     }
-
-    .HeaderContent-header {
-        padding-top: 7rem;
-    }
 }
 
 @media only screen and (max-width: $iphone-breakpoint) {
@@ -154,6 +150,6 @@
         font-size: 44px;
     }
     .HeaderContent-header .button {
-      margin-top: 32rem;
+      margin-top: 48rem;
     }
 }
