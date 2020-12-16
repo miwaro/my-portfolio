@@ -26,7 +26,10 @@
 
 }
 
+
 .portfolio-screenshot {
+    max-height: 700px;
+    max-width: 650px;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.411);
     border-radius: 1rem;
     &:hover {
@@ -85,10 +88,19 @@
     margin-bottom: auto;
 }
 
+#video-style {
+    max-width: 650px;
+}
+
 @media only screen and (max-width: $desktop-breakpoint) {
     .portfolio-portfolioItem {
        display: flex;
        flex-direction: column;
+    }
+
+    .portfolio-portfolioButtonContainer {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 
     #portfolio-loaderGalleryImage,
@@ -108,5 +120,11 @@
 
     .portfolio-portfolioItem {
         margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    #video-style {
+        width: 100vw;
     }
 }

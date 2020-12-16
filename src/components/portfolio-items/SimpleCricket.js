@@ -21,10 +21,10 @@ const SimpleCricket = () => {
             </div>
             
         </div>
-        <div  >
+        <div id='portfolio-loaderGalleryImage'>
             <video
-                height="380"
-                width="600"
+                id="video-style"
+                height="340"
                 controls
                 src="/video/sim-crick.mp4"
                 type="video/mp4"

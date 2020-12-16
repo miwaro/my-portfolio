@@ -5,7 +5,7 @@
 }
 
 .contact-contact {
-    color: #706f6f;
+    color: #000;
 }
 
 .contact-contentContainer {
@@ -63,11 +63,14 @@
     margin-top: 40px;
     width: 300px;
     padding: 20px;
+    transition:1.7s;
+
     &:hover {
         background-color: $light-grey;
         border-radius: 10px;
         transform: scale(1.01);
         box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.411);
+        transition: all 0.5s ease-in-out;
     }
 }
 
@@ -76,10 +79,13 @@
     margin-top: 40px;
     width: 300px;
     padding: 20px;
+    transition:1.7s;
+
     &:hover {
         background-color: $light-grey;
         border-radius: 10px;
         transform: scale(1.01);
+        transition: all .5s ease-in-out;
         box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.411);
     }
 }
