@@ -7,7 +7,6 @@ const Skills = () => {
                 <h2 className='skills-title'>Skills</h2>
             </div>
 
-
             <div className='about-listContainer'>
                 <div className="frames">
                     <p className='about-subheading'>
@@ -70,7 +69,6 @@ const Skills = () => {
         </div>
     )
 };
-
 
 export default Skills;
 
