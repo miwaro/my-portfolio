@@ -21,9 +21,17 @@ const SimpleCricket = () => {
                 </div>
             </div>
             <div id='portfolio-loaderGalleryImage'>
-                <img src='/images/simpleCricket.png' className='portfolio-screenshot'
-                    rel='noopener noreferrer' alt='simple-cricket' width='600' height='380'>
-                </img>
+                <a href='https://protected-plateau-24730.herokuapp.com/' target='blank'>
+                    <img
+                        src='/images/simpleCricket2.png'
+                        className='portfolio-screenshot'
+                        rel='noopener noreferrer'
+                        alt='simple-cricket'
+                        width='600'
+                        height='380'
+                    >
+                    </img>
+                </a>
             </div>
         </div>
     );

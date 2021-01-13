@@ -57,14 +57,12 @@
     }
 }
 
-
 .linked {
     margin: auto;
     margin-top: 40px;
     width: 300px;
     padding: 20px;
     transition:1.7s;
-
     &:hover {
         background-color: $light-grey;
         border-radius: 10px;
@@ -80,7 +78,6 @@
     width: 300px;
     padding: 20px;
     transition:1.7s;
-
     &:hover {
         background-color: $light-grey;
         border-radius: 10px;
