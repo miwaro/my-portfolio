@@ -3,18 +3,6 @@ import React from 'react';
 const MadHoney = () => {
     return (
         <div className='portfolio-portfolioItem'>
-            <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
-                <a href='https://madhoneytheband.com' target='blank'>
-                    <img
-                        src='/images/madHoneyScreenshot.png'
-                        className='portfolio-screenshot'
-                        rel='noopener noreferrer'
-                        alt='MadHoney-App'
-                        width='600'
-                        height='380'>
-                    </img>
-                </a>
-            </div>
             <div className='portfolio-portfolioItemText' id='portfolio-blindsTrackerText'>
                 <h2 className='portfolio-portfolioItemTitle'>Mad Honey</h2>
                 <p>
@@ -26,6 +14,18 @@ const MadHoney = () => {
                     <div className='portfolio-portfolioButton'>
                         <a href='https://madhoneytheband.com/' className='button' target='blank'>Explore The App</a>
                     </div>
+                </div>
+                <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
+                    <a href='https://madhoneytheband.com' target='blank'>
+                        <img
+                            src='/images/madHoneyScreenshot.png'
+                            className='portfolio-screenshot'
+                            rel='noopener noreferrer'
+                            alt='MadHoney-App'
+                            width='600'
+                            height='380'>
+                        </img>
+                    </a>
                 </div>
             </div>
         </div>
