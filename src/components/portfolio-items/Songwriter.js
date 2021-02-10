@@ -21,11 +21,7 @@ const Songwriter = () => {
                 </div>
                 <div className='portfolio-portfolioButton'>
                     <a href='https://github.com/alextotheroh/songwriting-inspirationator' className='button' target='blank'>Front-End Code</a>
-                </div>
-                <div className='portfolio-portfolioButton'>
-                    <a href='https://github.com/miwaro/emailer-api' className='button' target='blank'>Back-End Code</a>
-                </div>
-                
+                </div>      
             </div>
         </div>
     </div>

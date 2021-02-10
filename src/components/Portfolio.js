@@ -6,6 +6,7 @@ import PortfolioPage from './portfolio-items/PortfolioPage';
 import InvoiceGenerator from './portfolio-items/InvoiceGenerator';
 import Songwriter from './portfolio-items/Songwriter';
 import Ringtones from './portfolio-items/Ringtones';
+import MadHoney from './portfolio-items/MadHoney';
 
 const Portfolio = () => {
   return (
@@ -28,6 +29,8 @@ const Portfolio = () => {
       <Ringtones />
       <hr />
       <Songwriter />
+      <hr />
+      <MadHoney />
       <hr />
       <PortfolioPage />
       <hr />
