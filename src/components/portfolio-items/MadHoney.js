@@ -6,8 +6,8 @@ const MadHoney = () => {
             <div className='portfolio-portfolioItemText' id='portfolio-blindsTrackerText'>
                 <h2 className='portfolio-portfolioItemTitle'>Mad Honey</h2>
                 <p>
-                    This is a wordpress site I made for a couple of clients in a local Portland band, Mad Honey that is still in progress.
-                    Google analytics are installed to help track and report website traffic. Smartsupp, a customer/fan interaction chat app is also installed to help connect the client and their fans.
+                    This is a wordpress site I made for a couple of clients in a local Portland band, Mad Honey.
+                    Google analytics are installed to help track and report website traffic. Smartsupp, a customer/fan interaction chat app is also installed to help connect the clients with their fans.
                     I will also be including eCommerce for their merchandise sales.
                 </p>
                 <div className='portfolio-portfolioButtonContainer'>
@@ -15,18 +15,18 @@ const MadHoney = () => {
                         <a href='https://madhoneytheband.com/' className='button' target='blank'>Explore The App</a>
                     </div>
                 </div>
-                <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
-                    <a href='https://madhoneytheband.com' target='blank'>
-                        <img
-                            src='/images/madHoneyScreenshot.png'
-                            className='portfolio-screenshot'
-                            rel='noopener noreferrer'
-                            alt='MadHoney-App'
-                            width='600'
-                            height='380'>
-                        </img>
-                    </a>
-                </div>
+            </div>
+            <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
+                <a href='https://madhoneytheband.com' target='blank'>
+                    <img
+                        src='/images/madHoneyScreenshot.png'
+                        className='portfolio-screenshot'
+                        rel='noopener noreferrer'
+                        alt='MadHoney-App'
+                        width='600'
+                        height='380'>
+                    </img>
+                </a>
             </div>
         </div>
     );

@@ -23,6 +23,7 @@ const Skills = () => {
                         <li>Express<br /></li>
                         <li>Material-UI<br /></li>
                         <li>Bootstrap<br /></li>
+                        <li>Wordpress<br /></li>
                         <li>Jest<br /></li>
                     </p>
                 </div>
