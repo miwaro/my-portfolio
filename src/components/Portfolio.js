@@ -20,15 +20,16 @@ const Portfolio = () => {
             </p>
         <hr />
       </div>
+      <hr />
+      <InvoiceGenerator />
+      <hr />
       <KnechtInsurance />
       <hr />
       <SimpleCricket />
       <hr />
-      <InvoiceGenerator />
+      <Songwriter />
       <hr />
       <Ringtones />
-      <hr />
-      <Songwriter />
       <hr />
       <MadHoney />
       <hr />
