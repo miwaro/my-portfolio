@@ -8,10 +8,10 @@ const InvoiceGenerator = () => {
             <div className='portfolio-portfolioItemText' id='portfolio-portfolioSiteText'>
                 <h2 className='portfolio-portfolioItemTitle'>Invoice Generator</h2>
                 <p>
-                    Here is a prototype that I constructed for a client launching a small business geared toward freelance developers.
-                    Through the app, users can fill out a form that automatically populates the required invoice fields.
+                    Here is a prototype that I constructed for a client launching a small business geared toward helping freelance developers.
+                    Users can create an invoice and generate a printable PDF.
                     The app includes a wide array of options including the ability to calculate discounts or taxes.
-                    I developed additional customizations that allow the user to personalize the theme, add notes, and much more.
+                    Additionally, the user can customize the theme as well as append notes to the document.
             </p>
                 <div className='portfolio-portfolioButtonContainer'>
                     <div className='portfolio-portfolioButton'>
