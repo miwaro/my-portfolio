@@ -18,7 +18,7 @@ const HeaderContent = () => {
                         to="projects"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-50}
                         duration={500}
                         aria-label="View My Work"
                     >
