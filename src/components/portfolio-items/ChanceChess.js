@@ -6,7 +6,7 @@ const ChanceChess = () => {
             <div className='portfolio-portfolioItemImage' id='portfolio-blindsTrackerImage'>
                 <a href='https://miwaro.github.io/chance-chess/' target='blank'>
                     <img
-                        src='/images/ChanceChess.png'
+                        src='/images/chanceChess.png'
                         className='portfolio-screenshot'
                         rel='noopener noreferrer'
                         alt='chance-chess-app'
