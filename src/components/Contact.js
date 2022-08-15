@@ -8,12 +8,6 @@ const Contact = () => {
       <div className='contact-contactButton'>
         <a href='mailto:mrooze12@gmail.com' className='button'>Get in touch</a>
       </div>
-      {/* <a href='https://www.linkedin.com/in/michael-rooze-b8b356108/' target='blank'>
-        <div className="linked">
-          <p>Connect with me on LinkedIn</p>
-          <img src='images/linked-in.png'></img>
-        </div>
-      </a> */}
       <a href='https://github.com/miwaro' target='blank'>
         <div className="git">
           <p>Check out my repos</p>
