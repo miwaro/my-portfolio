@@ -6,34 +6,37 @@ import PortfolioPage from './portfolio-items/PortfolioPage';
 import InvoiceGenerator from './portfolio-items/InvoiceGenerator';
 import Songwriter from './portfolio-items/Songwriter';
 import Ringtones from './portfolio-items/Ringtones';
-import MadHoney from './portfolio-items/MadHoney';
+import FleaZorkus from './portfolio-items/FleaZorkus';
+import ChanceChess from './portfolio-items/ChanceChess';
 
 const Portfolio = () => {
   return (
     <div className='portfolio-contentContainer' id="projects">
       <div>
-        <h1 className='section-title'>MY PROJECTS</h1>
+        <h1 className='section-title'>My Projects</h1>
         <p className='section-subtitle'>
           Below I've shared various projects which demonstrate my proficiency as a front-end web developer.
           I've provided the links to each application as well as their corresponding Github repositories.
           Please feel free to explore both the applications and their source code!
-            </p>
+        </p>
         <hr />
       </div>
       <hr />
-      <InvoiceGenerator />
+      <SimpleCricket />
       <hr />
       <KnechtInsurance />
       <hr />
-      <SimpleCricket />
+      <InvoiceGenerator />
       <hr />
-      <Songwriter />
+      <ChanceChess />
       <hr />
       <Ringtones />
       <hr />
-      <MadHoney />
+      <FleaZorkus />
       <hr />
       <PortfolioPage />
+      <hr />
+      <Songwriter />
       <hr />
     </div>
   );

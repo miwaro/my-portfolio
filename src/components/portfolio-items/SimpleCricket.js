@@ -4,10 +4,10 @@ const SimpleCricket = () => {
     return (
         <div className='portfolio-portfolioItem'>
             <div className='portfolio-portfolioItemText' id='portfolio-portfolioSiteText'>
-                <h2 className='portfolio-portfolioItemTitle'>Simple Cricket</h2>
+                <h2 className='portfolio-portfolioItemTitle'>Cricket Tracker</h2>
                 <p>
-                    I developed Simple Cricket to  help users track their scores in a popular version of the dart game, Cricket.
-                    React and Redux with hooks are implemented in this project to create a clean and stylish format to make sure you stay on target.
+                    I developed Cricket-Tracker to help users track their scores in a popular version of the dart game, Cricket.
+                    React and Redux with hooks are implemented in this project to create a clean and stylish format to ensure you stay on target.
                 </p>
                 <div className='portfolio-portfolioButtonContainer'>
                     <div className='portfolio-portfolioButton'>
@@ -15,18 +15,18 @@ const SimpleCricket = () => {
                     </div>
                     <div className='portfolio-portfolioButton'>
                         <div className='portfolio-portfolioButton'>
-                            <a href='https://github.com/miwaro/bar-darts' className='button' target='blank'>View Source Code</a>
+                            <a href='https://github.com/miwaro/cricket-tracker' className='button' target='blank'>View Source Code</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div id='portfolio-loaderGalleryImage'>
-                <a href='https://protected-plateau-24730.herokuapp.com/' target='blank'>
+                <a href='https://miwaro.github.io/cricket-tracker/' target='blank'>
                     <img
-                        src='/images/simpleCricket2.png'
+                        src='/images/cricketTracker.png'
                         className='portfolio-screenshot'
                         rel='noopener noreferrer'
-                        alt='simple-cricket'
+                        alt='cricket-tracker'
                         width='600'
                         height='380'
                     >

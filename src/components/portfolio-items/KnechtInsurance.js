@@ -18,9 +18,10 @@ const KnechtInsurance = () => {
             <div className='portfolio-portfolioItemText' id='portfolio-blindsTrackerText'>
                 <h2 className='portfolio-portfolioItemTitle'>Knecht Insurance</h2>
                 <p>This is a modern website I built for an insurance broker utilizing HTML, CSS, and vanilla JavaScript.
-                The client requested the inclusion of a customer contact form to enable prospective customers to request a service quote.
-                To accomplish this, I powered the contact form with a NodeJS backend that seamlessly integrates with a Sendinblue API.
-            </p>
+                    The client requested the inclusion of a customer contact form to enable prospective customers to request a service quote.
+                    To accomplish this, I powered the contact form with a NodeJS/Express backend that seamlessly integrates with a Sendinblue API.
+                    Google's reCaptcha security service has also been implemented.
+                </p>
                 <div className='portfolio-portfolioButtonContainer'>
                     <div className='portfolio-portfolioButton'>
                         <a href='https://knechtinsurance.com/' className='button' target='blank'>Explore The App</a>

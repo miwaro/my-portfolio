@@ -10,9 +10,9 @@ const InvoiceGenerator = () => {
                 <p>
                     Here is a prototype that I constructed for a client launching a small business geared toward helping freelance developers.
                     Users can create an invoice and generate a printable PDF.
-                    The app includes a wide array of options including the ability to calculate discounts or taxes.
+                    The app includes a wide array of options including the ability to calculate discounts and taxes.
                     Additionally, the user can customize the theme as well as append notes to the document.
-            </p>
+                </p>
                 <div className='portfolio-portfolioButtonContainer'>
                     <div className='portfolio-portfolioButton'>
                         <a href='https://form-tree-invoice-generator.herokuapp.com/' className='button' target='blank'>Explore The App</a>
