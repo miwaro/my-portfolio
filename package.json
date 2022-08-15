@@ -1,6 +1,9 @@
 {
   "name": "michael-rooze-portfolio",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.22.12"
+  },
   "main": "index.js",
   "author": "Michael Rooze",
   "license": "MIT",
