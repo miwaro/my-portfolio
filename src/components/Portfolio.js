@@ -8,6 +8,9 @@ import Songwriter from './portfolio-items/Songwriter';
 import Ringtones from './portfolio-items/Ringtones';
 import FleaZorkus from './portfolio-items/FleaZorkus';
 import ChanceChess from './portfolio-items/ChanceChess';
+import Bis from './portfolio-items/BIS';
+import Beaverton from './portfolio-items/Beaverton';
+import Angi from './portfolio-items/Angi';
 
 const Portfolio = () => {
   return (
@@ -21,6 +24,12 @@ const Portfolio = () => {
         </p>
         <hr />
       </div>
+      <hr />
+      <Bis />
+      <hr />
+      <Beaverton />
+      <hr />
+      <Angi />
       <hr />
       <SimpleCricket />
       <hr />

@@ -7,10 +7,10 @@ const HeaderContent = () => {
             <div className='HeaderContent-header'>
                 <div className='HeaderContent-title'>
                     Michael Rooze
-            </div>
+                </div>
                 <div className='HeaderContent-subtitle'>
-                    Front-end Web Developer
-            </div>
+                    Full Stack Web Developer
+                </div>
                 <div className='HeaderContent-button'>
                     <Link
                         className='button'
@@ -23,7 +23,7 @@ const HeaderContent = () => {
                         aria-label="View My Work"
                     >
                         View My Work
-                </Link>
+                    </Link>
                 </div>
             </div>
         </div>
