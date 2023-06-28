@@ -21,10 +21,10 @@ const Portfolio = () => {
         <p className="section-subtitle">
           Below I've shared various projects which demonstrate my proficiency as
           a software engineer. I've provided the links to each application as
-          well as their corresponding GitHub repositories. Several of projects
-          are not public-facing but I have attached the company's website for
-          reference. Please feel free to explore both the applications and their
-          source code!
+          well as their corresponding GitHub repositories. Several of the
+          projects are not public-facing, however the company's websites have
+          been attached for reference. Please feel free to explore both the
+          applications and their source code!
         </p>
         <hr />
       </div>
