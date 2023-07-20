@@ -6,9 +6,7 @@ const HeaderContent = () => {
     <div>
       <div className="HeaderContent-header">
         <div className="HeaderContent-title">Michael Rooze</div>
-        <div className="HeaderContent-subtitle">
-          Full Stack Software Engineer
-        </div>
+        <div className="HeaderContent-subtitle">Full Stack Web Developer</div>
         <div className="HeaderContent-button">
           <Link
             className="button"

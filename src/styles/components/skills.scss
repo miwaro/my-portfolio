@@ -1,86 +1,98 @@
 .about-listContainer {
-    z-index: -1;
-    display: grid;
-    grid-template-areas: "frames tools certs"
-                          "frames logos logos";
-    font-size: $font-size-small;
-    max-width: 900px;
-    margin: 0 auto 50px auto;
-    padding: 0 0 10px 30px;
-    background-color: $light-grey;
-    border-radius: 10px;
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.411);
-    border-radius: 1rem;
+  z-index: -1;
+  font-size: $font-size-small;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: $light-grey;
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.411);
+  border-radius: 1rem;
+  justify-content: space-around;
 }
 
-.frames {
-    grid-area: frames;
+.skills-container {
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  font-size: $font-size-small;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: $light-grey;
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.411);
+  border-radius: 1rem;
+  justify-content: space-around;
 }
 
-.tools {
-    padding-top: 14px;
-    font-size: $font-size-small;
-    grid-area: tools;
+.skill-headers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills-container {
+  display: flex;
+}
+.lang-dev-container {
+  display: flex;
+  justify-content: space-around;
 }
 
 .certs {
-    padding-top: 14px;
-    grid-area: certs;
+  padding-top: 14px;
 }
 
 .logos {
-    grid-area: logos;
-    transform: translateX(-40px);
-    display: flex;
-    justify-content: space-around;
-
+  display: flex;
+  justify-content: center;
 }
 
-.logos-img  {
-  height: 35px;
+.logos-img {
+  height: 30px;
 }
 
 .skills-title {
-    display: flex;
-    justify-content: center;
-    color: #000;
-    font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  color: #000;
+  font-size: 4rem;
 }
 
-.about-subheading {
-    font-size: 18px;
-    font-weight: bold;
-    color: $blue;
+.subheading {
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+  color: $blue;
 }
 
 div li::before {
-    content: "\2022";
-    color: $blue;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
+  content: "\2022";
+  color: $blue;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
 }
 
 div {
-    list-style: none;
+  list-style: none;
 }
 
 @media only screen and (max-width: 900px) {
-    .about-listContainer {
-        text-align: center;
-        flex-direction: column;
-        display: flex;
-        justify-content: space-between;
-        max-width: 1000px;
-        margin: auto;
-        padding: 30px;
-        background-color: $light-grey;
-        border-radius: 10px;
-    }
-    
-    .logos {
-        display: none;
-    }
+  .about-listContainer {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    background-color: $light-grey;
+    border-radius: 10px;
+  }
 
+  .logos {
+    display: none;
+  }
 }
-

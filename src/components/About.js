@@ -24,18 +24,20 @@ const About = () => {
         </div>
 
         <p className="section-subtitle" id="about-subtitle">
-          Hi, my name is Michael and as you could guess, I am a software
-          engineer. I enjoy building visually appealing UIs that are both clean
-          and intuitive. I have 5 years of experience building applications for
-          companies and individuals using the latest technologies including the
-          React library and Redux.
+          Hi, my name is Michael and as you could guess, I am a web developer. I
+          enjoy building visually appealing UIs that are both clean and
+          intuitive. I have about 6 years of experience building applications
+          for companies and individuals using the latest technologies including
+          the React library and Redux.
           <br />
         </p>
         <p className="section-subtitle" id="about-subtitle2">
           Aside from coding, I enjoy playing the Najdorf variation of the
           sicilian defense (chess). I also enjoy classical guitar, music
           production, basketball, and exploring some of the amazing natural
-          locations of this region.
+          locations of Colorado. Recently, I have picked up mountain biking as
+          well as bouldering, and I can't forget to mention my favorite video
+          game, Zelda.
         </p>
       </div>
       <hr />

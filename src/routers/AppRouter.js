@@ -8,7 +8,7 @@ export const history = createHistory();
 
 class AppRouter extends Component {
   componentDidMount() {
-    document.title = "Michael Rooze - Software Engineer";
+    document.title = "Michael Rooze - Web Developer";
   }
 
   render() {

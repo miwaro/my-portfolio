@@ -9,13 +9,14 @@ const Charter = () => {
       >
         <h2 className="portfolio-portfolioItemTitle">Charter Communications</h2>
         <p>
-          As a contractor for Charter, I primarily worked on two React projects,
-          FMS and Helios. FMS provides multiple features to assist sales
-          activation agents in managing “fallouts”, issues that need to be
-          resolved to complete orders for internet/tv/mobile. Helios assists
-          internal teams in testing buyflows with various channel partners. It
-          also allows teams to view offers, products, and prices as well as
-          enter incorrect data to create fallouts.
+          I primarily worked on two projects, FMS and Helios. FMS provides
+          multiple features to assist sales support in managing “fallouts”,
+          issues that need to be resolved to complete internet/tv/mobile orders.
+          Helios is an internal testing harness for the Charter ordering
+          services. It allows developers, business analysts, and QA testers to
+          validate the succesful and failure cases for the various ordering
+          scenarios of the different clients. Both projects were built with
+          React and Material UI and used Context for state management.
         </p>
         <div className="portfolio-portfolioButtonContainer">
           <div className="portfolio-portfolioButton">

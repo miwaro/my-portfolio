@@ -9,12 +9,13 @@ html {
 body {
   color: $off-white;
   background-color: #ddd;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: $m-size;
   line-height: 1.4;
 }
 
-button, .button {
+button,
+.button {
   cursor: pointer;
 }
 
@@ -34,7 +35,8 @@ a {
 .section-title {
   color: #000;
   font-size: 4rem;
-  padding-top: 10px;
+  margin: 0;
+  // padding-top: 10px;
 }
 
 .about-title {
@@ -50,7 +52,6 @@ a {
   margin: auto;
   padding: 10px;
 }
-
 
 @media only screen and (max-width: $iphone-breakpoint) {
   .section-title {
