@@ -24,11 +24,12 @@ const About = () => {
         </div>
 
         <p className="section-subtitle" id="about-subtitle">
-          Hi, my name is Michael and as you could guess, I am a web developer. I
-          enjoy building visually appealing UIs that are both clean and
-          intuitive. I have about 6 years of experience building applications
-          for companies and individuals using the latest technologies including
-          the React library and Redux.
+          Hi, my name is Michael and as you could guess, I am a software
+          developer. I have 6 years of experience building applications for
+          companies and individuals using the latest technologies including the
+          React and Redux libraries. I have been involved in every step of the
+          software development lifecycyle from planning to testing and
+          deployment.
           <br />
         </p>
         <p className="section-subtitle" id="about-subtitle2">

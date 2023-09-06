@@ -11,12 +11,12 @@ const Charter = () => {
         <p>
           I primarily worked on two projects, FMS and Helios. FMS provides
           multiple features to assist sales support in managing “fallouts”,
-          issues that need to be resolved to complete internet/tv/mobile orders.
-          Helios is an internal testing harness for the Charter ordering
-          services. It allows developers, business analysts, and QA testers to
-          validate the succesful and failure cases for the various ordering
-          scenarios of the different clients. Both projects were built with
-          React and Material UI and used Context for state management.
+          issues that need to be resolved to complete orders. Helios is an
+          internal testing harness for the Charter ordering services. It allows
+          developers, business analysts, and QA testers to validate the
+          succesful and failure cases for the various ordering scenarios of the
+          different clients. Both projects were built with React, Material UI
+          and the React's Context API.
         </p>
         <div className="portfolio-portfolioButtonContainer">
           <div className="portfolio-portfolioButton">
